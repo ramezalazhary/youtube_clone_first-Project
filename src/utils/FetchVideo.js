@@ -10,7 +10,7 @@ const options = {
         order: 'date'
     },
     headers: {
-        'X-RapidAPI-Key': '0ca2843448msha49a9f9aee02742p171812jsn7fc866ef5deb',
+        'X-RapidAPI-Key': process.env.API_KEY,
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
